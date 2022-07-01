@@ -1,4 +1,4 @@
-# Avoid accidental Sketch file upload 
+# Avoid accidental Sketch file upload
 ###############################################
 ## Please do not remove line 5 - thanks! 🙂 ##
 ###############################################
@@ -10,6 +10,7 @@
 #######################################################
 *.xd
 *.fig
+noteblock.md
 
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
