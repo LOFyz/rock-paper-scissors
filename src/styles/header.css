@@ -1,0 +1,15 @@
+.header-container {
+  border-radius: 10px;
+  max-width: 50vw;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-title {
+  line-height: 23px;
+}
+
+.score-wrapper {
+  background-color: #f4f4f4;
+}
