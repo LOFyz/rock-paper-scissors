@@ -1,7 +1,7 @@
 .header-container {
   border-radius: 10px;
   max-width: 50vw;
-  min-width: 300px;
+  min-width: 250px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -12,4 +12,14 @@
 
 .score-wrapper {
   background-color: #f4f4f4;
+}
+
+@media (max-width: 575px) {
+  .main-title {
+    font-size: 18px !important;
+    line-height: 16px !important;
+  }
+  .score-wrapper {
+    aspect-ratio: 1/1;
+  }
 }
