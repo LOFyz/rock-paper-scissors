@@ -11,8 +11,8 @@
 .main-gradient {
   background: hsl(214, 47%, 23%);
   background: radial-gradient(
-    circle,
-    hsl(214, 47%, 23%) 0%,
+    circle 150vh at top,
+    hsl(214, 47%, 23%) 50%,
     hsl(237, 49%, 15%) 100%
   );
 }
