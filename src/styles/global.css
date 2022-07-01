@@ -15,3 +15,7 @@
   width: 100vw;
   height: 100vh;
 }
+
+.current-color {
+  color: currentColor !important;
+}
