@@ -1,0 +1,63 @@
+.dark-text {
+  color: hsl(229, 25%, 31%) !important;
+}
+.score-text {
+  color: hsl(229, 25%, 31%) !important;
+}
+.header-outline {
+  border-color: hsl(229, 25%, 31%) !important;
+}
+
+.main-gradient {
+  background: hsl(214, 47%, 23%);
+  background: radial-gradient(
+    circle,
+    hsl(214, 47%, 23%) 0%,
+    hsl(237, 49%, 15%) 100%
+  );
+}
+
+.scissors-gradient {
+  background: hsl(39, 89%, 49%);
+  background: linear-gradient(
+    0deg,
+    hsl(39, 89%, 49%) 0%,
+    hsl(40, 84%, 53%) 100%
+  );
+}
+
+.paper-gradient {
+  background: hsl(230, 89%, 62%);
+  background: linear-gradient(
+    0deg,
+    hsl(230, 89%, 62%) 0%,
+    hsl(230, 89%, 65%) 100%
+  );
+}
+
+.rock-gradient {
+  background: hsl(349, 71%, 52%);
+  background: linear-gradient(
+    0deg,
+    hsl(349, 71%, 52%) 0%,
+    hsl(349, 70%, 56%) 100%
+  );
+}
+
+.lizard-gradient {
+  background: hsl(261, 73%, 60%);
+  background: linear-gradient(
+    0deg,
+    hsl(261, 73%, 60%) 0%,
+    hsl(261, 72%, 63%) 100%
+  );
+}
+
+.cyan-gradient {
+  background: hsl(189, 59%, 53%);
+  background: linear-gradient(
+    0deg,
+    hsl(189, 59%, 53%) 0%,
+    hsl(189, 58%, 57%) 100%
+  );
+}
