@@ -28,6 +28,7 @@
 
   <link rel="stylesheet" href="styles/colors.css">
   <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/rulesModal.css">
   <!-- end styles -->
 
   <!-- scripts -->
@@ -38,7 +39,7 @@
 </head>
 
 <body>
-  <div class="wrapper main-gradient py-4 d-flex gap-4 flex-column">
+  <div class="wrapper main-gradient py-4 d-flex gap-4 flex-column position-relative">
     <header
       class="w-100 header-container border border-2 header-outline d-flex justify-content-between align-items-center px-3 py-2">
       <h1 class="text-uppercase fs-2 fw-bold m-0 main-title">ROCK<br>PAPER<br>SCISSORS</h1>
@@ -50,6 +51,25 @@
         </div>
       </div>
     </header>
+
+    <button id="rules-button" type="button"
+      class="btn btn-outline-light fw-semibold text-uppercase position-absolute end-0 bottom-0 m-3 px-4 py-1"
+      data-bs-toggle="modal" data-bs-target="#rules-modal">RULES</button>
+    <div id="rules-modal" class="modal fade" aria-labelledby="rules modal" aria-hidden="true">
+      <div class="modal-dialog modal-sm modal-dialog-centered modal-fullscreen-sm-down">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <p class="modal-title fs-5 dark-text fw-bold text-center text-sm-start w-100 m-0">RULES</p>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body w-100 d-flex align-items-center p-4">
+            <img class="w-100" src="./assets/images/image-rules.svg"
+              alt="rock beats scissors, scissors beats paper and paper beats rock">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 
